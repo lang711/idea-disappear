@@ -1,5 +1,5 @@
 a {
-  display: block;
+  display: flex;
   font-size: 60px;
   line-height: 180px;
   background-color: yellow;
@@ -9,11 +9,13 @@ a {
 
 i {
   background-color: red;
-  display: block;
+  margin-left: auto;
+  width: 200px;
 }
 
 span {
   background-color: #fff;
+  margin-right: auto;
 }
 
 .block {
@@ -21,4 +23,10 @@ span {
   padding: 120px;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+div {
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: -50px;
 }
